@@ -153,7 +153,8 @@ a:visited {
 			?>
 		</ul>
 	</div>
-	<br><!-- <hr>
-	Developed by: <a href="http://twitter.com/sandr0g" target="_blank">Sandro Milhano</a> -->
+	<br>
+	<hr>
+	Developed by: <a href="http://twitter.com/sandr0g" target="_blank">Sandro Milhano</a>
 </body>
 </html>
