@@ -1,11 +1,12 @@
 <?php
+	$market = "https://www.bitstamp.net/api/ticker/";
 	$file = "tickerbitstamp.json";
 	$last_mod = filemtime($file);
 
 	if(time() >= $last_mod + (3)) { // 60 * 5 is 5 minutes
-		$jsondata_market = file_get_contents("https://www.bitstamp.net/api/ticker/");
+		$jsondata_market = file_get_contents($market);
 		$json_market = json_decode($jsondata_market,true);
-		$jsonsave = file_put_contents('tickerbitstamp.json', json_encode($json_market));
+		$jsonsave = file_put_contents($file, json_encode($json_market));
 	} else {
 		return false;
 	}
