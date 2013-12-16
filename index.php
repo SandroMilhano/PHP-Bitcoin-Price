@@ -57,8 +57,8 @@
 }
 
 #menu {
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.5);
+	padding: 10px;
+    	background: rgba(0, 0, 0, 0.5);
 	border-style: solid;
 	border-width: 1px;
 	border-radius: 3px;
@@ -67,7 +67,7 @@
 
 li {
 	display: inline;
-    padding: 0px 10px 0px 10px;
+    	padding: 0px 10px 0px 10px;
 }
 
 body {
@@ -105,8 +105,13 @@ header {
 	margin-right: auto;
 }
 
-a { color: white; text-decoration: none; }
-a:hover { font-weight: bold;}
+a { 
+	color: white; 
+	text-decoration: none; 
+}
+a:hover { 
+	font-weight: bold;
+}
 
 </style>
 <meta http-equiv="refresh" content="3" >
