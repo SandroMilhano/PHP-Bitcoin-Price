@@ -105,9 +105,9 @@ header {
 	margin-right: auto;
 }
 
-a:visited {
-	color: blue;
-}
+a { color: white; text-decoration: none; }
+a:hover { font-weight: bold;}
+
 </style>
 <meta http-equiv="refresh" content="3" >
 </head>
